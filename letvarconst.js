@@ -60,7 +60,7 @@ function go(){
      //===================HOISTING==============
      //{supported in var == not-supported in let & const}
 
-     console.log(a);
+     console.log(a);  
      var a=6;
      var a=7;
    
