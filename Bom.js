@@ -7,7 +7,7 @@ function shiavni(){
 // alert(a)
 //let a= prompt("are u hpy with our website")
 //console.log(a)
-//let ans= prompt("what is name")
+//let ans= prompt("what is your      name")
  //alert("u r name is  " + ans)
 
 
@@ -15,7 +15,7 @@ function shiavni(){
  //=============even or odd=======
  //=========[if else]
 // let a=6;//5
- //if(a%2==0){
+ //if(a%2==0){  
    // alert("even number")
 
  //}
@@ -25,14 +25,18 @@ function shiavni(){
  //========input of user if else=======
  
 
- let abc=prompt("enter number")
- if(abc%2==0){
-    alert("even number")
- }
- else{
-    alert("odd number")
- }
+ //let abc=prompt("enter number")
+ //if(abc%2==0){
+    //alert("even number")
+ //}
+ ///else{
+   // alert("odd number")
+ //}
+ let a1=prompt("enter  first number")
+ let a2=prompt("enter  second number")
+ let sum=parseInt(a1)+parseInt(a2)
+ alert("sum   "+sum)
 
 
 }
-shiavni()
+shiavni()    
