@@ -32,7 +32,7 @@
  ///else{
    // alert("odd number")
  //}
- //========parseint========
+ //========parseInt========
  //let a1=prompt("enter  first number")
  //let a2=prompt("enter  second number")
  //let add=parseInt(a1)+parseInt(a2)
@@ -95,9 +95,11 @@ function shiv(){
 
   //===========(COMPLETED COURSE)====================
 //  let b=confirm("is your course complete?")
+//  let cmp=
 //  if(b==true)
+//if(b && cmp)
  // {
-//    alert("comleted")
+//    alert("completed")
 //  }
 //  else{
 //    alert("not completed")
@@ -191,7 +193,24 @@ function shiv(){
 
                         //====[QUESTION 9]============
 
-//==========================()
+//==========================(DISCOUNT)===================
+//  let u=parseInt(prompt("enter number"))
+//  let dis=confirm("do u have any coupan")
+//  if(dis){
+//   alert(u*0.9)
+
+ // }
+ // else{
+//    alert(u)
+//  }
+
+//=====================(DO-WHILE)========================
+//let ans;
+//do{
+//  ans=parseInt(prompt("enter number"))
+//}
+//while(ans<=10)
+
 
 
 }
