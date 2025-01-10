@@ -15,3 +15,7 @@ function boy(){
 
     alert("tahir")
 }
+function hey(){
+    alert("interation with the browser window")
+}
+hey();
