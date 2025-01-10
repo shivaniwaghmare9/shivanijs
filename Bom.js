@@ -94,16 +94,17 @@ function shiv(){
 
 
   //===========(COMPLETED COURSE)====================
-//  let b=confirm("is your course complete?")
-//  let cmp=
-//  if(b==true)
-//if(b && cmp)
- // {
-//    alert("completed")
-//  }
-//  else{
-//    alert("not completed")
- // }
+  let course=confirm("have u completed the course?")
+   let cmp=confirm(" do u have a certificate?")
+ 
+
+if(course && cmp)
+  {
+    alert("completed")
+  }
+  else{
+    alert("not completed")
+  }
 
 
              //====[QUESTION 3]============
