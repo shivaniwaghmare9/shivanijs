@@ -20,7 +20,7 @@
 //}
 //hey();
 //====================================================day 4========================
-function shiv(){
+//function shiv(){
    //browser window
    //console.log()
 //  document.write("<h1>hello</h1>")  mtlb [html page]
@@ -37,12 +37,41 @@ function shiv(){
   //let text2="ani"
   //  document.write(text1.toLowerCase(text2))
 
-    let text1="shiv"
-    let text2="ani"
-      document.write(text1.toUpperCase(text2))
-  
+    //let text1="shiv"
+   // let text2="ani"
+    //  document.write(text1.toUpperCase(text2))
+    
+
+
+
+//}
+//shiv();
+
+//=========================[WORK]===========================
+function shiv(){
+          //  [replaceall()]
+   //let rpl="java script"
+  // document.write(rpl.replaceAll("java script","hello world"))
+
+                //[charAt()]
+     // let str="java script"
+     // document.write(str.charAt(6))
+
+            // [charCodeAt()]
+
+         //   let str="hello world"
+         //   document.write(str.charCodeAt(0))
+
+            //[split()]
+         let str="hello,world,java"
+        document.write(str.split(","))
+
+       //             [indexOf()]
+        
+     // let str="java script"
+      // document.write(str.indexOf("script"))
+
+
 
 }
 //shiv();
-
-//====================================================

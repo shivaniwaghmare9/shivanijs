@@ -94,17 +94,17 @@ function shiv(){
 
 
   //===========(COMPLETED COURSE)====================
-  let course=confirm("have u completed the course?")
-   let cmp=confirm(" do u have a certificate?")
+ // let course=confirm("have u completed the course?")
+ //  let cmp=confirm(" do u have a certificate?")
  
 
-if(course && cmp)
-  {
-    alert("completed")
-  }
-  else{
-    alert("not completed")
-  }
+//if(course && cmp)
+//  {
+//    alert("completed")
+ // }
+ // else{
+ //   alert("not completed")
+ // }
 
 
              //====[QUESTION 3]============
@@ -149,7 +149,7 @@ if(course && cmp)
 
 
  //====================(+TIVE OR -TIVE)=================
- //let f=prompt("enter a number")
+ //let f=parseInt(prompt("enter a number"))
 // if(f>0){
  // alert("+tive")
  //}
