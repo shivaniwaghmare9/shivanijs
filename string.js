@@ -50,8 +50,8 @@
 //=========================[WORK]===========================
 function shiv(){
           //  [replaceall()]
-   //let rpl="java script"
-  // document.write(rpl.replaceAll("java script","hello world"))
+  // let rpl="java script"
+  // document.write(rpl.replaceAll("java","hello world"))
 
                 //[charAt()]
      // let str="java script"
@@ -60,16 +60,29 @@ function shiv(){
             // [charCodeAt()]
 
          //   let str="hello world"
-         //   document.write(str.charCodeAt(0))
+         //   document.write(str.charCodeAt(0))     //GIVE THE CHAR OF STRING
 
             //[split()]
-         let str="hello,world,java"
-        document.write(str.split(","))
+      //let str="hello,world,java"
+     //  document.write(str.split("hello"))
 
        //             [indexOf()]
         
      // let str="java script"
-      // document.write(str.indexOf("script"))
+      // document.write(str.indexOf("p"))      /GIVE THE INDEX OF CHAR
+
+
+      //===============================DAY5======================================
+                  //[REPLACE()]
+     // let str="i am learnig javascript and Javascript is fun"
+    //  document.write(str.replace("javascript","js"))
+    // let str="i am learnig Javascript and Javascript is fun"
+    //  document.write(str.replace(/Javascript/g,"js"))
+   //   let str="i am learnig javascript and Javascript is fun"
+    //  document.write(str.replace(/Javascript/gi,"js"))
+
+                    //[SPLIT]
+     let arr=[2,4,5,6,7,"color"]                      //array
 
 
 
