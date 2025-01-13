@@ -84,10 +84,33 @@ function shiv(){
                     //[SPLIT]
     ///  let str="i am learnig-javascript and-Javascript is fun"
      // console.log(str.split("-"));
+     ///===================trim================
+  //  let name="      shivani"
+   // console.log(name.trim());
+
            //WORK=========
+      //====================TEMPLATE LETRALS=======================
+
+      //     let str="this is \"is\" and 'js' is good";
+       //    alert(str);
+
+//support single qoutes('') and double quotes("")
+    //  let text=`java"Script" 'is' easy`
+     // alert(text)
       
-           let str="this is \"is\" and 'js' is good";
-           alert(str);
+    // let text=`java"Script" 
+    // 'is' easy`              //supports multiline string
+    // alert(text)
+
+    //  let text=`java"Script" <h1>is</h1> easy`
+    //  document.write(text)               //supports HTML tags 
+
+    //let name="shivani"
+   // let age=23;
+   // let ans="hello "+name+ "and your age is "+age;
+  // let ans=`Hello ${name} and your age is ${age}`
+  // console.log(ans);
+
           
 
 
