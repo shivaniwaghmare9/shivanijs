@@ -82,7 +82,19 @@ function shiv(){
     //  document.write(str.replace(/Javascript/gi,"js"))
 
                     //[SPLIT]
-     let arr=[2,4,5,6,7,"color"]                      //array
+    ///  let str="i am learnig-javascript and-Javascript is fun"
+     // console.log(str.split("-"));
+           //WORK=========
+      
+           let str="this is \"is\" and 'js' is good";
+           alert(str);
+          
+
+
+
+
+    // let arr=[2,4,5,6,7,"color"]                      //array
+
 
 
 
