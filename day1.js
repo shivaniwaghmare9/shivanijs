@@ -47,6 +47,7 @@ function go(){
     console.log(a+b);
 
 }
+go();
 
 
 

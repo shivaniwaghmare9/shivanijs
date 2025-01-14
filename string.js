@@ -99,22 +99,23 @@ function shiv(){
      // alert(text)
       
     // let text=`java"Script" 
-    // 'is' easy`              //supports multiline string
-    // alert(text)
+     //'is' easy`              //supports multiline string
+     //alert(text)
 
     //  let text=`java"Script" <h1>is</h1> easy`
     //  document.write(text)               //supports HTML tags 
+   // let text=`java"Script"  <button>See More</button>  easy`
+   //   document.write(text)  
 
     //let name="shivani"
    // let age=23;
    // let ans="hello "+name+ "and your age is "+age;
   // let ans=`Hello ${name} and your age is ${age}`
   // console.log(ans);
-
-          
-
-
-
+let name="Shiavni"
+let str="Javascript"
+let str1=`Hello I\'M ${name} and i like ${str}`
+document.write(str1)
 
     // let arr=[2,4,5,6,7,"color"]                      //array
 
