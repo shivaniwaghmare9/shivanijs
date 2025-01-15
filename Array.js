@@ -18,9 +18,11 @@ function shiv(){
 //console.log(arr2.reverse())
 
 //console.log(arr2.slice(0,-1))
- // arr2.splice(2,2,9,10)
+ // arr2.splice(3,0,10)    //first input ,second delete, third add
  // console.log(arr2)
- console.log(arr2.sort())
+// console.log(arr2.sort())
+
+  
 
 
 }
