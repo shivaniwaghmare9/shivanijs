@@ -54,8 +54,8 @@ function shiv(){
   // document.write(rpl.replaceAll("java","hello world"))
 
                 //[charAt()]
-     // let str="java script"
-     // document.write(str.charAt(6))
+      let str="java script"
+      document.write(str.charAt(6))
 
             // [charCodeAt()]
 
@@ -69,7 +69,7 @@ function shiv(){
        //             [indexOf()]
         
      // let str="java script"
-      // document.write(str.indexOf("p"))      /GIVE THE INDEX OF CHAR
+    //document.write(str.indexOf("p"))      //GIVE THE INDEX OF CHAR
 
 
       //===============================DAY5======================================
@@ -82,7 +82,7 @@ function shiv(){
     //  document.write(str.replace(/Javascript/gi,"js"))
 
                     //[SPLIT]
-    ///  let str="i am learnig-javascript and-Javascript is fun"
+    // let str="i am learnig*javascript and*Javascript is fun"
      // console.log(str.split("-"));
      ///===================trim================
   //  let name="      shivani"
@@ -112,10 +112,10 @@ function shiv(){
    // let ans="hello "+name+ "and your age is "+age;
   // let ans=`Hello ${name} and your age is ${age}`
   // console.log(ans);
-let name="Shiavni"
-let str="Javascript"
-let str1=`Hello I\'M ${name} and i like ${str}`
-document.write(str1)
+//let name="Shiavni"
+//let str="Javascript"
+//let str1=`Hello I\'M ${name} and i like ${str}`
+//document.write(str1)
 
     // let arr=[2,4,5,6,7,"color"]                      //array
 
