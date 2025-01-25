@@ -7,7 +7,7 @@
 
 
 //}  
-  function textchange(){
+ /* function textchange(){
    let change= document.querySelector("#box");
    change.style.backgroundImage="url('img 1.jpg')";         //backgroung img
 
@@ -15,8 +15,8 @@
   function new1(){
    let change= document.querySelector("#box");
    change.style.backgroundImage="none";
-  }
-   /*function textchange(){
+  }*/
+  /* function textchange(){
     let change= document.querySelector("#box")
     change.innerHTML="<h1>Hello Cybrom</h1>"  
     change.style.color="red"
@@ -33,7 +33,7 @@
    }
    function ram(){
     document.body.style.backgroundColor="white"
-   }*/
+   }
  /* function ram() {
    let change= document.querySelector("#new")
    if(change.style.display==='none'){
@@ -70,3 +70,16 @@
 
   // }
 //  ram();
+
+/*let arro=(name,nam)=>{
+   let change= document.querySelector("#box");
+  // console.log(`hello ${name} and age is${nam}`)
+  change.innerHTML=(`Hello ${name} and age is ${nam}`)
+}*/
+//arro();
+
+let sub=()=>{
+  let  inptext=document.querySelector("#inp").value
+  
+  alert(`hello ${inptext}`)
+}
