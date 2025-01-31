@@ -9,6 +9,7 @@ let sub=()=>{
     let inpmail=document.querySelector("#mail").value
     let inppass=document.querySelector("#pass").value
     let inpcpass=document.querySelector("#cpass").value
+    
 
 
     
@@ -44,6 +45,49 @@ let sub=()=>{
         errcpass.style.color="red"
         return false;
     }
+
+    /*if(inppass==inpcpass){
+        return true;
+    }
+    else{
+       errcpass.innerHTML="password does not match please enter the correct password"
+        errcpass.style.color="brown"
+        
+        return false;
+    }
+*///or
+if(inppass!==inpcpass){
+    errcpass.innerHTML="password does not match please enter the correct password"
+        errcpass.style.color="brown"
+        
+        return false;
+}
+else if(isNaN(inpnum)){       //if number then ans will be false
+    errnum.innerHTML="Please enter only number"
+        errnum.style.color="red"
+        return false;
+}
+else if(inpnum.length!==10){
+    errnum.innerHTML="Please enter 10 digit"
+     errnum.style.color="red"
+    return false;
+}
+//=============================string method(includes)===============================
+else if(!(inpmail.includes('@')&& inpmail.includes(".com"))){
+    errmail.innerHTML="please enter valid email"
+    errmail.style.color="red"
+    return false;
+}
+else if(!(inppass.match([/ 1234567890/]) && inppass.match([/ @!#$%^&*/]) && inppass.match([/ a-z/]))){
+    errpass.innerHTML="please enter strong password write dots symbols numbers"
+     errmail.style.color="red"
+    return false;
+}
+else if(inppass.length!==10){
+    errpass.innerHTML="Please enter 10 digit"
+     errpass.style.color="red"
+    return false;
+}
 
 
 }

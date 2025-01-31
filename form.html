@@ -4,22 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+       #form input{
+        color:rgb(174, 8, 8);
+       block-size: 25px;
+       background-color: aliceblue;
+    }
+    
+   
+   body{
+    background-color:gray;
+    font-style: italic;
+   }
+   body h1{
+   font-style: normal;
+   }
+   
+    
+   
+    </style>
 </head>
 <body>
     
 <h1>FORM VALIDATION</h1>
 
-<form>
+<form id="form">
     <p id="errorname"></p>
-    Enter Name: <input type="text" id="name"> <br> <br>
+    Enter Name: <input type="text"  placeholder=" enter name" id="name"> <br> <br>
     <p id="errornum"></p>
     Enter Number: <input type="text" id="num"> <br> <br>
     <p id="errormail"></p>
-    Enter Email: <input type="text" id="mail"> <br> <br>
+    Enter Email-Id: <input type="text" id="mail"> <br> <br>
     <p id="errorpass"></p>
     Enter Password: <input type="text" id="pass"> <br> <br>
     <p id="errorcpass"></p>
-    Enter Cpass: <input type="text" id="cpass"> <br> <br>
+    Enter Cpassword: <input type="text" id="cpass"> <br> <br>
 
     <input type="submit" value="signup" onclick="return sub()">
 </form>
