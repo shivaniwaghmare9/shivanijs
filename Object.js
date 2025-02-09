@@ -94,4 +94,4 @@ go();
 let gos=()=>{
     console.log("arrow");
 }
-gos()
+gos()                                                                                                                                              

@@ -21,14 +21,20 @@
 // })
 
 
-// let inpbox1=document.querySelector("#inpbox")
-// inpbox1.addEventListener("input",()=>{
-//     console.log(inpbox1.Value)
+// let inpbox=document.querySelector("#inpbox")
+// inpbox.addEventListener("input",()=>{
+//     console.log(inpbox.value);
 // })
 
+// let show=document.querySelector("#input")
+// let dispaly=document.querySelector("#button")
+// show.addEventListener("keydown",(e)=>{
+//     dispaly.innerHTML=(e.key)
+
+// })
 let show=document.querySelector("#input")
 let dispaly=document.querySelector("#button")
-show.addEventListener("keydown",(e)=>{
-    dispaly.innerHTML=(e.key)
+show.addEventListener("input",()=>{
+    dispaly.innerHTML=(show.value)
 
 })
