@@ -43,3 +43,24 @@ let ram=()=>{
 let clr=()=>{
     clearInterval(clear)
 }
+
+
+//==================================question============================================
+
+let stp;
+let countb=0;
+let shi=()=>{
+    let output=document.querySelector("#btn")
+    let input=document.querySelector("#inp").value
+    if(input>=1){
+         countb=input
+         output.innerHTML=countb;
+         stp=setInterval(()=>{
+          countb--;
+          output.innerHTML=countb;
+          if(countb==1){
+            clearInterval(stp);
+          }
+       },2000);
+    }
+}
