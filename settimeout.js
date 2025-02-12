@@ -58,9 +58,9 @@ let shi=()=>{
          stp=setInterval(()=>{
           countb--;
           output.innerHTML=countb;
-          if(countb==1){
+    if(countb==1){
             clearInterval(stp);
           }
-       },2000);
+       },1000);
     }
 }
