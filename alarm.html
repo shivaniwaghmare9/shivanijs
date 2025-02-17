@@ -4,13 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: rgb(243, 239, 244);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+        }
+
+        #clock{
+            width: 350px;
+            height: 500px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 15px;
+            border-radius: 10px;
+    
+        }
+        #clock div{
+            width: 250px;
+            height: 250px;
+            background-color:  #7a6c78;;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            
+        }
+        #clock div img{
+            width: 200px;
+            height: 200px;
+            box-shadow: 2px 5px 7px rgb(101, 101, 113), -2px -5px 7px rgb(101, 101, 113);
+            border-radius: 10px;
+           
+        }
+        #btn{
+            width: 60%;
+           height: 40px;
+           color: rgb(8, 18, 18);
+           background: darkgoldenrod;
+           font-size: 20px;
+           font-weight: bold;
+           outline: none;
+           border: none;
+           border-radius: 20px;
+           
+        }
+        #btn:hover{
+           background-color:  #47434e;
+           color:aliceblue;
+        }
+        #curtime {
+            border-radius: 10px;
+        }
+        #curtime time{
+            background-color: antiquewhite;
+        }
+        #show{
+            color: aliceblue;
+        }
+        #curtime{
+         width: 55%;
+         height: 20px;
+         background: #7a6c78;
+         margin: 20px auto;
+         padding: 10px;
+         border: none;
+         outline: none;
+         border-radius: 20px;
+         font-size: 20px;
+           
+        }
+        h1 span{
+            color: darkgoldenrod;
+        }
+        
+    </style>
 </head>
 <body>
-    
-<h1 id="show"></h1>
-<input type="time" id="curtime">
-<button onclick="set()">Set Alarm</button>
-<audio src="thailand-eas-alarm-mp3" id="music"></audio>
+    <h1>ALA<span>RM</span> CL<span>OCK</span></h1>
+<div id="clock">
+     <div><img src="alarm-clock-icon-retro.avif" alt="jpg">
+     </div>
+    <h1 id="show"></h1>
+    <input type="time" id="curtime">
+   
+    <audio src="thailand-eas-alarm-2006-266492 (1).mp3" id="music"></audio>
+
+    <button onclick="sett()" id="btn">Set Alarm</button>
+   
+</div>
 
 
     <script src="alarm.js"></script>
