@@ -10,9 +10,9 @@
    // arr1.unshift(456.3,"grosery")
    //console.log(arr1);
 //}
-function shiv(){
+//function shiv(){
   //let arr1=["apple"]
-  let arr2=[1,6,8,2,7,6]
+ // let arr2=[1,6,8,2,7,6]
 //let ans=arr1.concat(arr2)
 //console.log(arr1.concat(arr2))
 //console.log(arr2.reverse())
@@ -25,4 +25,10 @@ function shiv(){
   
 
 
+//}
+
+function shiv(){
+  let arr=[3,7,1,9,2]
+  ans=arr.sort();
+  console.log(arr.reverse(ans));
 }

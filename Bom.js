@@ -81,7 +81,7 @@
 //ram();
 //====================(HOME WORK)===============================
 
-function shiv(){
+//function shiv(){
                 //====[QUESTION 1]============
 
   //=========AGE(GREATER THAN OR EQUAL)================
@@ -214,5 +214,16 @@ function shiv(){
 
 
 
+//}
+function shiv(){
+  let course=confirm("Do you want to see the numbers from 1 to 10 ?")
+  if(course)
+ {
+  for(let i=1; i<=10; ++i)
+   alert(i);
+ }
+ else{
+   alert("You cancelled the action");
+ }
 }
 shiv();

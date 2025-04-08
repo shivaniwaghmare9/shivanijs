@@ -78,8 +78,20 @@
 }*/
 //arro();
 
-let sub=()=>{
-  let  inptext=document.querySelector("#inp").value
+// let sub=()=>{
+//   let  inptext=document.querySelector("#inp").value
   
-  alert(`hello ${inptext}`)
+//   alert(`hello ${inptext}`)
+// }
+
+function shiv(){
+let change=document.querySelector("#box1");
+change.style.backgroundColor="green";
+
 }
+
+function ram(){
+   let change=document.querySelector("#box1");
+   change.style.backgroundColor="orange";
+   
+   }

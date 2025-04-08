@@ -54,8 +54,8 @@ function shiv(){
   // document.write(rpl.replaceAll("java","hello world"))
 
                 //[charAt()]
-      let str="java script"
-      document.write(str.charAt(6))
+      // let str="java script"
+      // document.write(str.charAt(6))
 
             // [charCodeAt()]
 
@@ -74,12 +74,12 @@ function shiv(){
 
       //===============================DAY5======================================
                   //[REPLACE()]
-     // let str="i am learnig javascript and Javascript is fun"
-    //  document.write(str.replace("javascript","js"))
-    // let str="i am learnig Javascript and Javascript is fun"
-    //  document.write(str.replace(/Javascript/g,"js"))
    //   let str="i am learnig javascript and Javascript is fun"
-    //  document.write(str.replace(/Javascript/gi,"js"))
+   //   document.write(str.replace("javascript","js"))
+    let str="i am learnig Javascript and Javascript is fun"
+     document.write(str.replace(/Javascript/g,"js"))
+   //   let str="i am learnig javascript and Javascript is fun"
+   //   document.write(str.replace(/Javascript/gi,"js"))
 
                     //[SPLIT]
     // let str="i am learnig*javascript and*Javascript is fun"

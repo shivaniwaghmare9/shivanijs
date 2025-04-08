@@ -2,8 +2,8 @@
 
 let senddata=()=>{
 
-    let naame=document.querySelector("#inp").value
-    localStorage.setItem("Name",naame)
+    // let naame=document.querySelector("#inp").value
+    // localStorage.setItem("Name",naame)
 
     localStorage.setItem("Name","shivani")
     localStorage.setItem("Age","23")
