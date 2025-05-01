@@ -27,7 +27,7 @@ obj1.age=23                     //update key ,new value
  delete obj1.city                     //delete krne ke liye delete keyword likhna hota h//
 console.log(obj1);      //to see full object
 
-//=================destructuring=============================================
+//=================destructuring==========================================================================================
 let student={
     name:"shivani",
     age:23,
@@ -37,7 +37,7 @@ let student={
 let {name,age,city}=student
 console.log(age);
 
-//============================spreadoperator=============================
+//============================spreadoperator========================================================================================
 let spd1={
     name:"shivani",
     age:23,

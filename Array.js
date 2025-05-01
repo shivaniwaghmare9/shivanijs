@@ -21,14 +21,17 @@
  // arr2.splice(3,0,10)    //first input ,second delete, third add
  // console.log(arr2)
 // console.log(arr2.sort())
-
-  
-
-
 //}
 
-function shiv(){
-  let arr=[3,7,1,9,2]
-  ans=arr.sort();
-  console.log(arr.reverse(ans));
-}
+// function shiv(){
+//   let arr=[3,7,1,9,2]
+//   ans=arr.sort();
+//   console.log(arr.reverse(ans));
+// }
+
+let arr=[1,2,3,4,5];
+let index=2;
+arr.splice(index,1);
+console.log(arr);
+
+
