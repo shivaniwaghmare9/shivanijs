@@ -21,6 +21,7 @@
  // arr2.splice(3,0,10)    //first input ,second delete, third add
  // console.log(arr2)
 // console.log(arr2.sort())
+
 //}
 
 // function shiv(){
